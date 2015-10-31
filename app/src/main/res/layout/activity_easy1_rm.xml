@@ -1,0 +1,129 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bgmain"
+        android:padding="40dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="คำนวณหาค่า 1RM"
+            android:textSize="30dp"
+            android:id="@+id/textView5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dip">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="น้ำหนัก"
+                android:textSize="20dp"
+                android:paddingRight="40dp"
+                android:id="@+id/txt_weieasy1rm" />
+
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxt_weieasy1rm"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dip">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="จำนวนครั้ง"
+                android:paddingRight="20dp"
+                android:textSize="20dp"
+                android:id="@+id/txt_repeasy1rm" />
+
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxt_repeasy1rm"
+                />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_caleasy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF9900"
+            android:text="คำนวณ"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingTop="20dp"
+            android:textSize="20dp"
+            android:id="@+id/txt_easy1Rm" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เลือก"
+            android:paddingTop="20dp"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="100dp"
+            android:id="@+id/textView" />
+
+        <Button
+            android:id="@+id/btn_Begineasy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF9900"
+            android:text="พื้นฐาน"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:id="@+id/btn_mideasy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF9900"
+            android:text="ปานปลาง"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:id="@+id/btn_strongeasy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF9900"
+            android:text="แข็งแรง"
+            android:layout_marginBottom="20dp"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

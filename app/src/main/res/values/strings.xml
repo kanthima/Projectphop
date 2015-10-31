@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Projectphop</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_filldata">FilldataActivity</string>
+    <string name="title_activity_listview">ListviewActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_menu_body">MenuBodyActivity</string>
+    <string name="title_activity_menu_easy">MenuEasyActivity</string>
+    <string name="title_activity_bmi">BMIActivity</string>
+    <string name="newcourse">เลือกระดับการเล่น</string>
+    <string name="lbl_easy">ระดับผู้เริ่มต้น</string>
+    <string name="lbl_medium">ระดับผู้เชียวชาญ</string>
+    <string name="lbl_hard">ระดับผู้เชียวชาญ</string>
+    <string name="title_activity_menu_mid">MenuMidActivity</string>
+    <string name="title_activity_menu_hard">MenuHardActivity</string>
+    <string name="title_activity_menuarmall">MenuarmallActivity</string>
+    <string name="title_activity_menuchestall">MenuchestallActivity</string>
+    <string name="title_activity_menuabsall">MenuabsallActivity</string>
+    <string name="title_activity_menulegall">MenulegallActivity</string>
+    <string name="title_activity_menushoulderall">MenushoulderallActivity</string>
+    <string name="title_activity_menubackall">MenubackallActivity</string>
+    <string name="title_activity_easyarmmenu">EasyarmmenuActivity</string>
+    <string name="title_activity_easy1_rm">easy1RmActivity</string>
+    <string name="title_activity_barbell_curl_cou">BarbellCurl_couActivity</string>
+    <string name="title_activity_test">testActivity</string>
+</resources>

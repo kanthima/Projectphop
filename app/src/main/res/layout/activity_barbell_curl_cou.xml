@@ -1,0 +1,42 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgmain"
+    android:padding="40dp"
+    android:gravity="center">
+
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        />
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="266dp"
+        android:layout_height="match_parent"
+
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="ทำการฝึก 4 เซต
+    เซตละ10ครั้ง"
+        android:textSize="30dp"
+        android:id="@+id/text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+</LinearLayout>
+    </ScrollView>
